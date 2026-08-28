@@ -1,48 +1,48 @@
-# 📘 Assignment: Hangman Game
+# 📘 Assignment: Jogo da Forca
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Create a classic word-guessing game in Python using strings, loops, conditionals, and user input while practicing core programming logic.
+Construir um jogo clássico de adivinhação de palavras em Python usando strings, loops, condicionais e entrada de dados do usuário.
 
-## 📝 Tasks
+## 📝 Tarefas
 
-### 🛠️ Create the Game Setup
+### 🛠️ Configuração inicial do jogo
 
 #### Descrição
-Build the initial structure of the hangman game by choosing a random word from a predefined list and displaying the hidden word as underscores.
+Crie a estrutura inicial do jogo da forca escolhendo uma palavra aleatória de uma lista predefinida e mostrando a palavra escondida com underscores.
 
 #### Requisitos
 O programa concluído deve:
 
-- Store a list of words and select one at random.
-- Show the secret word as underscores, such as _ _ _ _ _.
-- Accept a letter guess from the user.
-- Track the letters already guessed and avoid repeated guesses.
-- Display the current progress after each attempt.
+- Armazenar uma lista de palavras e selecionar uma aleatoriamente.
+- Exibir a palavra secreta como underscores, como _ _ _ _ _.
+- Receber uma letra do usuário como palpite.
+- Registrar as letras já tentadas e evitar repetições.
+- Mostrar o progresso atual após cada tentativa.
 
-### 🛠️ Handle Guessing and Attempts
+### 🛠️ Lidar com palpites e tentativas
 
 #### Descrição
-Implement the gameplay loop so the player continues guessing letters until the word is fully revealed or the maximum number of wrong attempts is reached.
+Implemente a lógica do jogo para que o jogador continue adivinhando letras até revelar a palavra completa ou esgotar as tentativas erradas.
 
 #### Requisitos
 O programa concluído deve:
 
-- Count the number of remaining incorrect attempts.
-- Reveal correctly guessed letters in their positions.
-- Notify the user when a guessed letter is not in the word.
-- End the game when the word is solved or the player runs out of attempts.
-- Print a clear win or loss message at the end.
+- Contar o número de tentativas erradas restantes.
+- Revelar as letras corretas em suas posições na palavra.
+- Avisar o usuário quando a letra escolhida não faz parte da palavra.
+- Encerrar o jogo quando a palavra for acertada ou quando as tentativas acabarem.
+- Exibir uma mensagem clara de vitória ou derrota ao final.
 
-### 🛠️ Improve the User Experience
+### 🛠️ Melhorar a experiência do usuário
 
 #### Descrição
-Add polish to the game by making the output easier to follow and the game flow more user-friendly.
+Deixe o jogo mais amigável e fácil de seguir, melhorando a clareza das mensagens e o fluxo de interação.
 
 #### Requisitos
 O programa concluído deve:
 
-- Show the guessed letters and remaining attempts clearly.
-- Use simple, readable messages for each game state.
-- Support repeated rounds if desired.
-- Keep the game logic easy to understand and maintain.
+- Mostrar as letras já tentadas e as tentativas restantes com clareza.
+- Usar mensagens simples e legíveis para cada estado do jogo.
+- Permitir rodadas consecutivas, se desejar.
+- Manter a lógica do jogo simples, organizada e fácil de entender.
