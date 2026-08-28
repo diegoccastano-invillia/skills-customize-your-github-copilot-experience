@@ -72,6 +72,25 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "data-pipeline-python",
+      "title": "Automated Data Pipeline with Python",
+      "description": "Build an automated data pipeline with Python, CSV validation, SQLite storage, and report generation.",
+      "path": "assignments/data-pipeline-python",
+      "dueDate": "2026-09-04",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Sample Dataset",
+          "file": "data.csv",
+          "type": "csv"
+        }
+      ]
     }
   ]
 }
