@@ -77,6 +77,20 @@
           "type": "json"
         }
       ]
+    },
+    {
+      "id": "python-automation",
+      "title": "Python Automation",
+      "description": "Automate file organization and task summaries using Python standard library.",
+      "path": "assignments/python-automation",
+      "dueDate": "2026-09-24",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
